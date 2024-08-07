@@ -56,3 +56,5 @@ GROUP BY
  - Captura:
 
     <img src="./capturas/Vista de Rutinas con Número de Ejercicios.png"alt="drawing" width="500"/>
+   ![image](https://github.com/user-attachments/assets/211485ae-55c4-478c-a094-100f37dc385b)
+
