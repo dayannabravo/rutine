@@ -5,7 +5,8 @@ CREATE TABLE Rutine (
     description VARCHAR(255),
     disclaimer VARCHAR(255),
     sex CHAR(1)
-);```
+);
+```
 
 ```
 -- Tabla Exercise
@@ -13,7 +14,8 @@ CREATE TABLE Exercise (
     id INT PRIMARY KEY,
     detail VARCHAR(255),
     video_url VARCHAR(255)
-);```
+);
+```
 
 ```
 -- Tabla Routine_Exercise
