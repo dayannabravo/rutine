@@ -13,8 +13,10 @@ FROM
 WHERE 
     r.sex = 'F'; 
 
-Captura
-![rutine](capturas/Vista de Rutinas por Sexo.png)
+ ""
+ - Captura:
+
+    <img src="./capturas/Vista de Rutinas por Sexo.png"alt="drawing" width="500"/>
 
 2. Simple_Routines
 Sentencia:
@@ -28,8 +30,11 @@ SELECT
 FROM 
     Rutine;
 
-Captura
-![routine](capturas/Vista de Detalles de Rutinas.png)
+
+ ""
+ - Captura:
+
+    <img src="./capturas/Vista de Detalles de Rutinas.png"alt="drawing" width="500"/>
 
 3. Routines_Exercise_Count 
 Sentencia:
@@ -46,5 +51,8 @@ JOIN
 GROUP BY 
     r.id, r.description;
 
-Captura
-![excercise](capturas/Vista de Rutinas con Número de Ejercicios.png)
+
+ ""
+ - Captura:
+
+    <img src="./capturas/Vista de Rutinas con Número de Ejercicios.png"alt="drawing" width="500"/>
