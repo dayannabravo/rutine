@@ -1,7 +1,7 @@
 ExamenRecu - Views Projects
 1. Routine_By_Sex AS
 Sentencia:
---Vista de Rutinas por Sexo
+```--Vista de Rutinas por Sexo
 CREATE VIEW Routine_By_Sex AS
 SELECT 
     r.id AS routine_id,
@@ -13,14 +13,17 @@ FROM
 WHERE 
     r.sex = 'F'; 
 
- ""
+ ```
+ ```
  - Captura:
 
     <img src="./capturas/Vista de Rutinas por Sexo.png"alt="drawing" width="500"/>
+    ```
+    
 
 2. Simple_Routines
 Sentencia:
---Vista de Detalles de Rutinas
+```--Vista de Detalles de Rutinas
 CREATE VIEW Simple_Routines AS
 SELECT 
     id AS routine_id,
@@ -30,15 +33,16 @@ SELECT
 FROM 
     Rutine;
 
-
- ""
+```
+```
  - Captura:
 
     <img src="./capturas/Vista de Detalles de Rutinas.png"alt="drawing" width="500"/>
+    ```
 
 3. Routines_Exercise_Count 
 Sentencia:
---Vista de Rutinas con Número de Ejercicios
+```--Vista de Rutinas con Número de Ejercicios
 CREATE VIEW Routines_Exercise_Count AS
 SELECT 
     r.id AS routine_id,
@@ -51,8 +55,10 @@ JOIN
 GROUP BY 
     r.id, r.description;
 
-
- ""
+```
+```
  - Captura:
 
     <img src="./capturas/Vista de Rutinas con Número de Ejercicios.png"alt="drawing" width="500"/>
+
+```
