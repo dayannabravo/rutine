@@ -1,4 +1,35 @@
 ExamenRecu - Views Projects
+```-- Tabla Rutine
+CREATE TABLE Rutine (
+    id INT PRIMARY KEY,
+    description VARCHAR(255),
+    disclaimer VARCHAR(255),
+    sex CHAR(1)
+);```
+
+```
+-- Tabla Exercise
+CREATE TABLE Exercise (
+    id INT PRIMARY KEY,
+    detail VARCHAR(255),
+    video_url VARCHAR(255)
+);```
+
+```
+-- Tabla Routine_Exercise
+CREATE TABLE Routine_Exercise (
+    id INT PRIMARY KEY,
+    series INT,
+    repetitions INT,
+    routine_id INT,
+    exercise_id INT,
+    FOREIGN KEY (routine_id) REFERENCES Rutine(id),
+    FOREIGN KEY (exercise_id) REFERENCES Exercise(id)
+);
+```
+
+
+
 1. Routine_By_Sex AS
 Sentencia:
 ```--Vista de Rutinas por Sexo
