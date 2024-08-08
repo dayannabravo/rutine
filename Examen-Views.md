@@ -1,5 +1,5 @@
 Equipo de Futbol
-```-- Tabla Rutine
+```-- Tabla team
 -- Tabla Team
 CREATE TABLE Team (
     id INT PRIMARY KEY,
