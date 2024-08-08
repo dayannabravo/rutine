@@ -37,3 +37,4 @@ JOIN
     Team t ON p.team_id = t.id;
 
 ```
+![image](https://github.com/user-attachments/assets/1b1aa047-9b93-481d-a400-d66433b66f44)
